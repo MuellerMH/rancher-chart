@@ -25,13 +25,13 @@ categories:
       show_subquestion_if: true
       group: "Required TODO"
       subquestions:
-      - variable: persistence.size
-          default: "10Gi"
-          description: "Demo Java Persistent Volume Size"
-          type: string
-          label: Demo Java Volume Size
-      - variable: persistence.accessMode
-          default: "ReadWriteOnce"
-          description: "Exece Mode"
-          type: accessMode
-          label: Default ExecMode for Demo Java
+        - variable: persistence.size
+            default: "10Gi"
+            description: "Demo Java Persistent Volume Size"
+            type: string
+            label: Demo Java Volume Size
+        - variable: persistence.accessMode
+            default: "ReadWriteOnce"
+            description: "Exece Mode"
+            type: accessMode
+            label: Default ExecMode for Demo Java
