@@ -1,7 +1,4 @@
 categories:
-    - MicRoswervice
-    - Java
-    - Test
     questions:
     - variable: helloWorld
       default: "Lass mich in ruhe!"
