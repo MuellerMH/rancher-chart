@@ -1,11 +1,11 @@
 
 image:
-  repository: <TODO: Put your own docker image here>
-  tag: 2.140
+  repository: https://hub.docker.com/muellermh/example
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
-  httpPort: 80
+  httpPort: 8080
   type: LoadBalancer
 
 ingress:
@@ -21,4 +21,4 @@ resources:
     memory: 512Mi
     cpu: 300m
 
-helloWorld: <TODO: Put your own text here>
+helloWorld: "bitte nicht ändern :)"

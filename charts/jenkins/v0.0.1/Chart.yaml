@@ -1,17 +1,17 @@
-name: jenkins
-home: https://jenkins.io/
+name: JavaMicroservice
+home: https://kubernauts.io/
 icon: https://jenkins.io/images/logos/jenkins/jenkins.png
 version: 0.0.1
 appVersion: 2.140
-description: The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+description: Java application example
 keywords:
 - continuous-delivery
 - continuous-deployment
 - continuous-integration
 - docker
-- jenkins
+- java
 sources:
-- <TODO: Put your link to the git repo here>
+- https://github.com/muellermh/rancher-chart
 maintainers:
-- name: <TODO: Put your name here>
-  email: <TODO: Put your email here>
+- name: Manuel Müller
+  email: mm@kubernauts.de

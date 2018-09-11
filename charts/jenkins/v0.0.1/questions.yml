@@ -1,0 +1,40 @@
+categories:
+    - MicRoswervice
+    - Java
+    - Test
+    questions:
+    - variable: helloWorld
+      default: "Lass mich in ruhe!"
+      description: "Hello World"
+      type: string
+      required: true
+      label: fun
+      show_subquestion_if: false
+      group: "Fun"
+    - variable: image.tag
+      default: "latest"
+      description: "Change image Tag"
+      type: string
+      required: false
+      label: docker tag 
+      show_subquestion_if: true
+      group: "Demo Java Settings"
+    - variable: persistence.enabled
+      default: "false"
+      description: "Enable persistent volume for Demo Java"
+      type: boolean
+      required: true
+      label: Demo Java Persistent Volume Enabled
+      show_subquestion_if: true
+      group: "Required TODO"
+      subquestions:
+      - variable: persistence.size
+          default: "10Gi"
+          description: "Demo Java Persistent Volume Size"
+          type: string
+          label: Demo Java Volume Size
+      - variable: persistence.accessMode
+          default: "ReadWriteOnce"
+          description: "Exece Mode"
+          type: accessMode
+          label: Default ExecMode for Demo Java
